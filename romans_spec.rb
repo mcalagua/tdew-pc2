@@ -19,6 +19,10 @@ describe RomanNumber do
       @romano.convertir_numero("III").should == 3
       end
 
+      it "IV en 4" do
+      @romano.convertir_numero("IV").should == 4
+      end
+
    end
 
 
