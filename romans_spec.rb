@@ -23,6 +23,22 @@ describe RomanNumber do
       @romano.convertir_numero("IV").should == 4
       end
 
+      it "V en 5" do
+       @romano.convertir_numero("V").should == 5
+      end
+
+      it "VI en 6" do
+       @romano.convertir_numero("VI").should == 6
+      end
+
+      it "VII en 7" do
+       @romano.convertir_numero("VII").should == 7
+      end
+
+      it "VIII en 8" do
+       @romano.convertir_numero("VIII").should == 8
+      end
+
    end
 
 
