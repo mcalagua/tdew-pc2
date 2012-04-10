@@ -39,6 +39,19 @@ describe RomanNumber do
        @romano.convertir_numero("VIII").should == 8
       end
 
+      it "IX en 9" do
+       @romano.convertir_numero("IX").should == 9
+      end
+
+      it "X en 10" do
+       @romano.convertir_numero("X").should == 10
+      end
+
+      it "XI en 11" do
+       @romano.convertir_numero("XI").should == 11
+      end
+
+
    end
 
 

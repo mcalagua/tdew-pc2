@@ -24,6 +24,14 @@ class RomanNumber
             tmp = 5
         end
 
+        if c == "X" 
+          @rpta = @rpta + 10
+          if tmp<10
+            @rpta -= tmp*2
+          end
+            tmp = 10
+        end
+
        end
 
       return @rpta
