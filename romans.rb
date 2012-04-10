@@ -1,9 +1,20 @@
 class RomanNumber
 
+     def initialize()
+        @rpta = 0
+    end
+
     def convertir_numero(numeroRomano)
        
-        return 1 if numeroRomano.eql? "I"
-        return 2 if numeroRomano.eql? "II" 
+        numeroRomano.reverse.split("").each do |c|
+
+        if c == "I"
+          @rpta = @rpta + 1
+        end
+
+       end
+      return @rpta
     end
+
 
 end
