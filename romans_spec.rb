@@ -10,5 +10,12 @@ describe RomanNumber do
       it "I en 1" do
       @romano.convertir_numero("I").should == 1
       end
- end
+
+      it "II en 2" do
+      @romano.convertir_numero("II").should == 2
+      end
+      
+   end
+
+
 end
